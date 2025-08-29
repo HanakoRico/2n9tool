@@ -361,7 +361,7 @@ while True:
             webbrowser.open(url)
 
         elif menu == "17":
-            url = "https://t.me/i2n9Ann
+            url = "https://t.me/i2n9Ann"
             print(f"nOpening: {url}")
             webbrowser.open(url)
             
