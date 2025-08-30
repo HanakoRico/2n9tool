@@ -375,17 +375,17 @@ while True:
             print(f"nOpening {url}")
             webbrowser.open(url)
         
-        elif menu == "20"
+        elif menu == "20":
             url = "https://rarbin.com/user/AE"
             print(f"nOpening {url}")
             webbrowser.open(url)
         
-        elif menu == "21"
+        elif menu == "21":
             url = "https://rarbin.com/user/su"
             print(f"nOpening {url}")
             webbrowser.open(url)
         
-        elif menu == "22"
+        elif menu == "22":
             url = "https://rarbin.com/user/jk"
             print(f"nOpening {url}")
             webbrowser.open(url)
@@ -395,7 +395,7 @@ while True:
             print(f"nOpening {url}")
             webbrowser.open(url)
         
-        elif menu == "24"
+        elif menu == "24":
             url = "https://hanakorico.github.io/2n9/"
             print(f"nOpening {url}")
             webbrowser.open(url)
