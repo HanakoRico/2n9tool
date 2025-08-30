@@ -390,7 +390,7 @@ while True:
             print(f"nOpening {url}")
             webbrowser.open(url)
         
-        elif menu == "23"
+        elif menu == "23":
             url = "https://rarbin.com/user/67"
             print(f"nOpening {url}")
             webbrowser.open(url)
