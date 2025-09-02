@@ -51,22 +51,44 @@ DNS_API_KEY = "fd2C3hFP53JrglsQFalzLg==p2qiqWdqaUVCNLno"
 phone_api_key = decrypt_key(PHONE_API_KEY_ENC)
 email_api_key = decrypt_key(EMAIL_API_KEY_ENC)
 
-def ping_ip(ip):
-    param = '-n' if platform.system().lower() == 'windows' else '-c'
-    command = ['ping', param, '10000', ip]
+def ping_worker(command, ip):
     try:
-        typewriter(f"\nPinging {ip}...\n")
-        process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True)
+        process = subprocess.Popen(
+            command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True
+        )
         for line in iter(process.stdout.readline, ''):
             if line.strip():
-                print(f"{Fore.GREEN}Pinged IP = {ip} | {line.strip()}")
-            time.sleep(0.1)
+                print(f"{Fore.GREEN}Pinged IP = {ip} | {line.strip()}", flush=True)
         process.stdout.close()
         process.wait()
-        if process.returncode != 0:
-            typewriter(f"{Fore.RED}Ping command failed with return code {process.returncode}")
     except Exception as e:
-        typewriter(f"{Fore.RED}An error occurred: {e}")
+        print(f"{Fore.RED}Ping error for {ip}: {e}")
+
+def ping_ip(ip, threads=4):
+    system = platform.system().lower()
+    if system == 'windows':
+        param_count = '-n'
+        param_size = '-l'
+        interval = []  # Windows ping doesn't support interval
+        packet_size = '65500'
+    else:
+        param_count = '-c'
+        param_size = '-s'
+        interval = ['-i', '0.0000001']  # Faster interval
+        packet_size = '65500'
+
+    command = ['ping', param_count, '100000', param_size, packet_size] + interval + [ip]
+
+    typewriter(f"\npinging {ip} with {threads} threads...\n")
+
+    thread_list = []
+    for _ in range(threads):
+        t = threading.Thread(target=ping_worker, args=(command, ip))
+        t.start()
+        thread_list.append(t)
+
+    for t in thread_list:
+        t.join()
 
 def print_menu(menu_num):
     os.system('cls' if os.name == 'nt' else 'clear')
