@@ -93,7 +93,7 @@ def ping_ip(ip, threads=4):
 def print_menu(menu_num):
     os.system('cls' if os.name == 'nt' else 'clear')
     if menu_num == 1:
-        content = f'''
+        content = fr"""
 {Fore.CYAN}  _____    _______  ________  _____ ______      
 {Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
 {Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
@@ -110,7 +110,7 @@ def print_menu(menu_num):
 {Fore.CYAN} [4] Enter IP Info
 '''
     if menu_num == 2:
-        content = f'''
+        content = fr"""
 {Fore.CYAN}  _____    _______  ________  _____ ______      
 {Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
 {Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
@@ -127,7 +127,7 @@ def print_menu(menu_num):
 {Fore.CYAN} [9] Join The Discord
 '''
     if menu_num == 3:
-        content = f'''
+        content = fr"""
 {Fore.CYAN}  _____    _______  ________  _____ ______      
 {Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
 {Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
@@ -144,7 +144,7 @@ def print_menu(menu_num):
 {Fore.CYAN} [14] @Proton.me
 '''
     if menu_num == 4:
-        content = f'''
+        content = fr"""
 {Fore.CYAN}  _____    _______  ________  _____ ______      
 {Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
 {Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
@@ -161,7 +161,7 @@ def print_menu(menu_num):
 {Fore.CYAN} [19] Hanako Vilebin
 '''
     if menu_num == 5:
-        content = f'''
+        content = fr"""
 {Fore.CYAN}  _____    _______  ________  _____ ______      
 {Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
 {Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
