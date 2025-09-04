@@ -94,14 +94,18 @@ def print_menu(menu_num):
     os.system('cls' if os.name == 'nt' else 'clear')
     if menu_num == 1:
         content = fr"""
-{Fore.CYAN}  _____    _______  ________  _____ ______      
-{Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
-{Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
-{Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
-{Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
-{Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
-{Fore.BLUE}       \|__| \|_______|\|__|\|__|\|__|     \|__|
-{Fore.BLUE} Osint  0 MADE BY HANAKO 0
+{Fore.CYAN}      ,---,                                     
+{Fore.CYAN}  ,-+-. /  |              .--.--.               
+{Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
+{Fore.BLUE}|   |  ,"' | /       \  |  :  /`./   /       \  
+{Fore.CYAN}|   | /  | |.--.  .-. | |  :  ;_    .--.  .-. | 
+{Fore.CYAN}|   | |  | | \__\/: . .  \  \    `.  \__\/: . . 
+{Fore.BLUE}|   | |  |/  ," .--.; |   `----.   \ ," .--.; | 
+{Fore.BLUE}|   | |--'  /  /  ,.  |  /  /`--'  //  /  ,.  | 
+{Fore.CYAN}|   |/     ;  :   .'   \\'--'.     /;  :   .'   \\
+{Fore.CYAN}'---'      |  ,     .-./  `--'---' |  ,     .-./
+{Fore.BLUE}            `--`---'                `--`---'
+{Fore.BLUE} Osint Options 0 MADE BY HANAKO 0
 
 {Fore.CYAN} [0] Exit
 {Fore.CYAN} [1] Enter Name Info    
@@ -111,13 +115,17 @@ def print_menu(menu_num):
 """
     if menu_num == 2:
         content = fr"""
-{Fore.CYAN}  _____    _______  ________  _____ ______      
-{Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
-{Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
-{Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
-{Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
-{Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
-{Fore.BLUE}       \|__| \|_______|\|__|\|__|\|__|     \|__|
+{Fore.CYAN}      ,---,                                     
+{Fore.CYAN}  ,-+-. /  |              .--.--.               
+{Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
+{Fore.BLUE}|   |  ,"' | /       \  |  :  /`./   /       \  
+{Fore.CYAN}|   | /  | |.--.  .-. | |  :  ;_    .--.  .-. | 
+{Fore.CYAN}|   | |  | | \__\/: . .  \  \    `.  \__\/: . . 
+{Fore.BLUE}|   | |  |/  ," .--.; |   `----.   \ ," .--.; | 
+{Fore.BLUE}|   | |--'  /  /  ,.  |  /  /`--'  //  /  ,.  | 
+{Fore.CYAN}|   |/     ;  :   .'   \\'--'.     /;  :   .'   \\
+{Fore.CYAN}'---'      |  ,     .-./  `--'---' |  ,     .-./
+{Fore.BLUE}            `--`---'                `--`---'
 {Fore.BLUE} Osint/Discord/Website Code  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [5] Enter Email Info
@@ -128,13 +136,17 @@ def print_menu(menu_num):
 """
     if menu_num == 3:
         content = fr"""
-{Fore.CYAN}  _____    _______  ________  _____ ______      
-{Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
-{Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
-{Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
-{Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
-{Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
-{Fore.BLUE}       \|__| \|_______|\|__|\|__|\|__|     \|__|
+{Fore.CYAN}      ,---,                                     
+{Fore.CYAN}  ,-+-. /  |              .--.--.               
+{Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
+{Fore.BLUE}|   |  ,"' | /       \  |  :  /`./   /       \  
+{Fore.CYAN}|   | /  | |.--.  .-. | |  :  ;_    .--.  .-. | 
+{Fore.CYAN}|   | |  | | \__\/: . .  \  \    `.  \__\/: . . 
+{Fore.BLUE}|   | |  |/  ," .--.; |   `----.   \ ," .--.; | 
+{Fore.BLUE}|   | |--'  /  /  ,.  |  /  /`--'  //  /  ,.  | 
+{Fore.CYAN}|   |/     ;  :   .'   \\'--'.     /;  :   .'   \\
+{Fore.CYAN}'---'      |  ,     .-./  `--'---' |  ,     .-./
+{Fore.BLUE}            `--`---'                `--`---'
 {Fore.BLUE} Swatting Methods/Secure emails  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [10] Globfone (Free)
@@ -145,13 +157,18 @@ def print_menu(menu_num):
 """
     if menu_num == 4:
         content = fr"""
-{Fore.CYAN}  _____    _______  ________  _____ ______      
-{Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
-{Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
-{Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
-{Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
-{Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
-{Fore.BLUE}       \|__| \|_______|\|__|\|__|\|__|     \|__|
+        content = fr"""
+{Fore.CYAN}      ,---,                                     
+{Fore.CYAN}  ,-+-. /  |              .--.--.               
+{Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
+{Fore.BLUE}|   |  ,"' | /       \  |  :  /`./   /       \  
+{Fore.CYAN}|   | /  | |.--.  .-. | |  :  ;_    .--.  .-. | 
+{Fore.CYAN}|   | |  | | \__\/: . .  \  \    `.  \__\/: . . 
+{Fore.BLUE}|   | |  |/  ," .--.; |   `----.   \ ," .--.; | 
+{Fore.BLUE}|   | |--'  /  /  ,.  |  /  /`--'  //  /  ,.  | 
+{Fore.CYAN}|   |/     ;  :   .'   \\'--'.     /;  :   .'   \\
+{Fore.CYAN}'---'      |  ,     .-./  `--'---' |  ,     .-./
+{Fore.BLUE}            `--`---'                `--`---'
 {Fore.BLUE} Telegram Links/Paste Bin links  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [15] My Personal telegram
@@ -162,13 +179,18 @@ def print_menu(menu_num):
 """
     if menu_num == 5:
         content = fr"""
-{Fore.CYAN}  _____    _______  ________  _____ ______      
-{Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
-{Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
-{Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
-{Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
-{Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
-{Fore.BLUE}        \|__| \|_______|\|__|\|__|\|__|     \|__|
+        content = fr"""
+{Fore.CYAN}      ,---,                                     
+{Fore.CYAN}  ,-+-. /  |              .--.--.               
+{Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
+{Fore.BLUE}|   |  ,"' | /       \  |  :  /`./   /       \  
+{Fore.CYAN}|   | /  | |.--.  .-. | |  :  ;_    .--.  .-. | 
+{Fore.CYAN}|   | |  | | \__\/: . .  \  \    `.  \__\/: . . 
+{Fore.BLUE}|   | |  |/  ," .--.; |   `----.   \ ," .--.; | 
+{Fore.BLUE}|   | |--'  /  /  ,.  |  /  /`--'  //  /  ,.  | 
+{Fore.CYAN}|   |/     ;  :   .'   \\'--'.     /;  :   .'   \\
+{Fore.CYAN}'---'      |  ,     .-./  `--'---' |  ,     .-./
+{Fore.BLUE}            `--`---'                `--`---'
 {Fore.BLUE} Rarbin.com / website  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [20] user/Ae
