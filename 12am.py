@@ -108,7 +108,7 @@ def print_menu(menu_num):
 {Fore.BLUE} [2] Enter Phone Number
 {Fore.BLUE} [3] Enter Address Info  
 {Fore.CYAN} [4] Enter IP Info
-'''
+"""
     if menu_num == 2:
         content = fr"""
 {Fore.CYAN}  _____    _______  ________  _____ ______      
@@ -125,7 +125,7 @@ def print_menu(menu_num):
 {Fore.BLUE} [7] Ping IP
 {Fore.BLUE} [8] See website code
 {Fore.CYAN} [9] Join The Discord
-'''
+"""
     if menu_num == 3:
         content = fr"""
 {Fore.CYAN}  _____    _______  ________  _____ ______      
@@ -142,7 +142,7 @@ def print_menu(menu_num):
 {Fore.BLUE} [12] 988 suicide Hotline (Free + May get them sent to a mental hospital)
 {Fore.BLUE} [13] @Mailum.com
 {Fore.CYAN} [14] @Proton.me
-'''
+"""
     if menu_num == 4:
         content = fr"""
 {Fore.CYAN}  _____    _______  ________  _____ ______      
@@ -159,7 +159,7 @@ def print_menu(menu_num):
 {Fore.BLUE} [17] 2n9 Group Announcements Telegram
 {Fore.BLUE} [18] 2n9 Doxbin
 {Fore.CYAN} [19] Hanako Vilebin
-'''
+"""
     if menu_num == 5:
         content = fr"""
 {Fore.CYAN}  _____    _______  ________  _____ ______      
@@ -176,7 +176,7 @@ def print_menu(menu_num):
 {Fore.BLUE} [22] user/jk
 {Fore.BLUE} [23] user/67
 {Fore.CYAN} [24] 2n9 Website
-'''
+"""
 
     print(Fore.CYAN + content)
 
