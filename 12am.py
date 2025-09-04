@@ -157,7 +157,6 @@ def print_menu(menu_num):
 """
     if menu_num == 4:
         content = fr"""
-        content = fr"""
 {Fore.CYAN}      ,---,                                     
 {Fore.CYAN}  ,-+-. /  |              .--.--.               
 {Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
@@ -178,7 +177,6 @@ def print_menu(menu_num):
 {Fore.CYAN} [19] Hanako Vilebin
 """
     if menu_num == 5:
-        content = fr"""
         content = fr"""
 {Fore.CYAN}      ,---,                                     
 {Fore.CYAN}  ,-+-. /  |              .--.--.               
