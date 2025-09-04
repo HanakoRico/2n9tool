@@ -100,7 +100,7 @@ def print_menu(menu_num):
 {Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
 {Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
 {Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
-{Fore.BLUE}        \|__| \|_______|\|__|\|__|\|__|     \|__|
+{Fore.BLUE}       \|__| \|_______|\|__|\|__|\|__|     \|__|
 {Fore.BLUE} Osint  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [0] Exit
@@ -117,7 +117,7 @@ def print_menu(menu_num):
 {Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
 {Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
 {Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
-{Fore.BLUE}        \|__| \|_______|\|__|\|__|\|__|     \|__|
+{Fore.BLUE}       \|__| \|_______|\|__|\|__|\|__|     \|__|
 {Fore.BLUE} Osint/Discord/Website Code  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [5] Enter Email Info
@@ -134,7 +134,7 @@ def print_menu(menu_num):
 {Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
 {Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
 {Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
-{Fore.BLUE}        \|__| \|_______|\|__|\|__|\|__|     \|__|
+{Fore.BLUE}       \|__| \|_______|\|__|\|__|\|__|     \|__|
 {Fore.BLUE} Swatting Methods/Secure emails  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [10] Globfone (Free)
@@ -151,7 +151,7 @@ def print_menu(menu_num):
 {Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
 {Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
 {Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
-{Fore.BLUE}        \|__| \|_______|\|__|\|__|\|__|     \|__|
+{Fore.BLUE}       \|__| \|_______|\|__|\|__|\|__|     \|__|
 {Fore.BLUE} Telegram Links/Paste Bin links  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [15] My Personal telegram
