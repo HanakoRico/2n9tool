@@ -94,13 +94,13 @@ def print_menu(menu_num):
     os.system('cls' if os.name == 'nt' else 'clear')
     if menu_num == 1:
         content = f'''
-{Fore.CYAN}  .oooooo.    .oooo.                .ooooo.        ooooooooooooo                     oooo  
-{Fore.CYAN} d'     `b  .dP""Y88b              888' `Y88.      8'   888   `8                     `888  
-{Fore.BLUE}d' .d"bd  8       ]8P' ooo. .oo.   888    888           888       .ooooo.   .ooooo.   888  
-{Fore.BLUE}8  8. 8  .d     .d8P'  `888P"Y88b   `Vbood888           888      d88' `88b d88' `88b  888  
-{Fore.CYAN}Y.  YoP"b'    .dP'      888   888        888'           888      888   888 888   888  888
-{Fore.CYAN} 8.      .8 .oP     .o  888   888      .88P'            888      888   888 888   888  888     
-{Fore.BLUE}  YooooooP  8888888888 o888o o888o   .oP'              o888o     `Y8bod8P' `Y8bod8P' o888o 
+{Fore.CYAN}  _____    _______  ________  _____ ______      
+{Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
+{Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
+{Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
+{Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
+{Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
+{Fore.BLUE}        \|__| \|_______|\|__|\|__|\|__|     \|__|
 {Fore.BLUE} Osint  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [0] Exit
@@ -111,13 +111,13 @@ def print_menu(menu_num):
 '''
     if menu_num == 2:
         content = f'''
-{Fore.CYAN}  .oooooo.    .oooo.                .ooooo.        ooooooooooooo                     oooo  
-{Fore.CYAN} d'     `b  .dP""Y88b              888' `Y88.      8'   888   `8                     `888  
-{Fore.BLUE}d' .d"bd  8       ]8P' ooo. .oo.   888    888           888       .ooooo.   .ooooo.   888  
-{Fore.BLUE}8  8. 8  .d     .d8P'  `888P"Y88b   `Vbood888           888      d88' `88b d88' `88b  888  
-{Fore.CYAN}Y.  YoP"b'    .dP'      888   888        888'           888      888   888 888   888  888
-{Fore.CYAN} 8.      .8 .oP     .o  888   888      .88P'            888      888   888 888   888  888     
-{Fore.BLUE}  YooooooP  8888888888 o888o o888o   .oP'              o888o     `Y8bod8P' `Y8bod8P' o888o 
+{Fore.CYAN}  _____    _______  ________  _____ ______      
+{Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
+{Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
+{Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
+{Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
+{Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
+{Fore.BLUE}        \|__| \|_______|\|__|\|__|\|__|     \|__|
 {Fore.BLUE} Osint/Discord/Website Code  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [5] Enter Email Info
@@ -128,13 +128,13 @@ def print_menu(menu_num):
 '''
     if menu_num == 3:
         content = f'''
-{Fore.CYAN}  .oooooo.    .oooo.                .ooooo.        ooooooooooooo                     oooo  
-{Fore.CYAN} d'     `b  .dP""Y88b              888' `Y88.      8'   888   `8                     `888  
-{Fore.BLUE}d' .d"bd  8       ]8P' ooo. .oo.   888    888           888       .ooooo.   .ooooo.   888  
-{Fore.BLUE}8  8. 8  .d     .d8P'  `888P"Y88b   `Vbood888           888      d88' `88b d88' `88b  888  
-{Fore.CYAN}Y.  YoP"b'    .dP'      888   888        888'           888      888   888 888   888  888
-{Fore.CYAN} 8.      .8 .oP     .o  888   888      .88P'            888      888   888 888   888  888     
-{Fore.BLUE}  YooooooP  8888888888 o888o o888o   .oP'              o888o     `Y8bod8P' `Y8bod8P' o888o 
+{Fore.CYAN}  _____    _______  ________  _____ ______      
+{Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
+{Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
+{Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
+{Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
+{Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
+{Fore.BLUE}        \|__| \|_______|\|__|\|__|\|__|     \|__|
 {Fore.BLUE} Swatting Methods/Secure emails  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [10] Globfone (Free)
@@ -145,30 +145,30 @@ def print_menu(menu_num):
 '''
     if menu_num == 4:
         content = f'''
-{Fore.CYAN}  .oooooo.    .oooo.                .ooooo.        ooooooooooooo                     oooo  
-{Fore.CYAN} d'     `b  .dP""Y88b              888' `Y88.      8'   888   `8                     `888  
-{Fore.BLUE}d' .d"bd  8       ]8P' ooo. .oo.   888    888           888       .ooooo.   .ooooo.   888  
-{Fore.BLUE}8  8. 8  .d     .d8P'  `888P"Y88b   `Vbood888           888      d88' `88b d88' `88b  888  
-{Fore.CYAN}Y.  YoP"b'    .dP'      888   888        888'           888      888   888 888   888  888
-{Fore.CYAN} 8.      .8 .oP     .o  888   888      .88P'            888      888   888 888   888  888     
-{Fore.BLUE}  YooooooP  8888888888 o888o o888o   .oP'              o888o     `Y8bod8P' `Y8bod8P' o888o 
+{Fore.CYAN}  _____    _______  ________  _____ ______      
+{Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
+{Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
+{Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
+{Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
+{Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
+{Fore.BLUE}        \|__| \|_______|\|__|\|__|\|__|     \|__|
 {Fore.BLUE} Telegram Links/Paste Bin links  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [15] My Personal telegram
-{Fore.CYAN} [16] Group Telegram
-{Fore.BLUE} [17] Group Announcements Telegram
-{Fore.BLUE} [18] Doxbin
-{Fore.CYAN} [19] Vilebin
+{Fore.CYAN} [16] 2n9 Group Telegram
+{Fore.BLUE} [17] 2n9 Group Announcements Telegram
+{Fore.BLUE} [18] 2n9 Doxbin
+{Fore.CYAN} [19] Hanako Vilebin
 '''
     if menu_num == 5:
         content = f'''
-{Fore.CYAN}  .oooooo.    .oooo.                .ooooo.        ooooooooooooo                     oooo  
-{Fore.CYAN} d'     `b  .dP""Y88b              888' `Y88.      8'   888   `8                     `888  
-{Fore.BLUE}d' .d"bd  8       ]8P' ooo. .oo.   888    888           888       .ooooo.   .ooooo.   888  
-{Fore.BLUE}8  8. 8  .d     .d8P'  `888P"Y88b   `Vbood888           888      d88' `88b d88' `88b  888  
-{Fore.CYAN}Y.  YoP"b'    .dP'      888   888        888'           888      888   888 888   888  888
-{Fore.CYAN} 8.      .8 .oP     .o  888   888      .88P'            888      888   888 888   888  888     
-{Fore.BLUE}  YooooooP  8888888888 o888o o888o   .oP'              o888o     `Y8bod8P' `Y8bod8P' o888o 
+{Fore.CYAN}  _____    _______  ________  _____ ______      
+{Fore.CYAN} / __  \  /  ___  \|\   __  \|\   _ \  _   \    
+{Fore.BLUE}|\/_|\  \/__/|_/  /\ \  \|\  \ \  \\\__\ \  \   
+{Fore.BLUE}\|/ \ \  \__|//  / /\ \   __  \ \  \\|__| \  \  
+{Fore.CYAN}     \ \  \  /  /_/__\ \  \ \  \ \  \    \ \  \ 
+{Fore.CYAN}      \ \__\|\________\ \__\ \__\ \__\    \ \__\
+{Fore.BLUE}        \|__| \|_______|\|__|\|__|\|__|     \|__|
 {Fore.BLUE} Rarbin.com / website  0 MADE BY HANAKO 0
 
 {Fore.CYAN} [20] user/Ae
