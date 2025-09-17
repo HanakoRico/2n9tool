@@ -94,117 +94,88 @@ def print_menu(menu_num):
     os.system('cls' if os.name == 'nt' else 'clear')
     if menu_num == 1:
         content = fr"""
-{Fore.CYAN}      ,---,                                     
-{Fore.CYAN}  ,-+-. /  |              .--.--.               
-{Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
-{Fore.BLUE}|   |  ,"' | /       \  |  :  /`./   /       \  
-{Fore.CYAN}|   | /  | |.--.  .-. | |  :  ;_    .--.  .-. | 
-{Fore.CYAN}|   | |  | | \__\/: . .  \  \    `.  \__\/: . . 
-{Fore.BLUE}|   | |  |/  ," .--.; |   `----.   \ ," .--.; | 
-{Fore.BLUE}|   | |--'  /  /  ,.  |  /  /`--'  //  /  ,.  | 
-{Fore.CYAN}|   |/     ;  :   .'   \\'--'.     /;  :   .'   \\
-{Fore.CYAN}'---'      |  ,     .-./  `--'---' |  ,     .-./
-{Fore.BLUE}            `--`---'                `--`---'
+{Fore.CYAN}________        ________  ____  ___ ___________                             __  .__        
+{Fore.CYAN}\_____  \  ____/   __   \ \   \/  / \__    ___/___________    _____ _____ _/  |_|__| ____  
+{Fore.BLUE} /  ____/ /    \____    /  \     /    |    |  \_  __ \__  \  /     \\__  \\   __\  |/ ___\ 
+{Fore.BLUE}/       \|   |  \ /    /   /     \    |    |   |  | \// __ \|  Y Y  \/ __ \|  | |  \  \___ 
+{FORE.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
+{FORE.CYAN}        \/    \/                \_/                       \/      \/     \/             \/                                      
 {Fore.BLUE} Osint Options 0 MADE BY HANAKO 0
-
-{Fore.CYAN} [0] Exit
+{Fore.BLUE} [0] Exit
 {Fore.CYAN} [1] Enter Name Info    
-{Fore.BLUE} [2] Enter Phone Number
+{Fore.CYAN} [2] Enter Phone Number
 {Fore.BLUE} [3] Enter Address Info  
-{Fore.CYAN} [4] Enter IP Info
+{Fore.BLUE} [4] Enter IP Info
 """
     if menu_num == 2:
         content = fr"""
-{Fore.CYAN}      ,---,                                     
-{Fore.CYAN}  ,-+-. /  |              .--.--.               
-{Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
-{Fore.BLUE}|   |  ,"' | /       \  |  :  /`./   /       \  
-{Fore.CYAN}|   | /  | |.--.  .-. | |  :  ;_    .--.  .-. | 
-{Fore.CYAN}|   | |  | | \__\/: . .  \  \    `.  \__\/: . . 
-{Fore.BLUE}|   | |  |/  ," .--.; |   `----.   \ ," .--.; | 
-{Fore.BLUE}|   | |--'  /  /  ,.  |  /  /`--'  //  /  ,.  | 
-{Fore.CYAN}|   |/     ;  :   .'   \\'--'.     /;  :   .'   \\
-{Fore.CYAN}'---'      |  ,     .-./  `--'---' |  ,     .-./
-{Fore.BLUE}            `--`---'                `--`---'
+{Fore.CYAN}________        ________  ____  ___ ___________                             __  .__        
+{Fore.CYAN}\_____  \  ____/   __   \ \   \/  / \__    ___/___________    _____ _____ _/  |_|__| ____  
+{Fore.BLUE} /  ____/ /    \____    /  \     /    |    |  \_  __ \__  \  /     \\__  \\   __\  |/ ___\ 
+{Fore.BLUE}/       \|   |  \ /    /   /     \    |    |   |  | \// __ \|  Y Y  \/ __ \|  | |  \  \___ 
+{FORE.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
+{FORE.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
 {Fore.BLUE} Osint/Discord/Website Code  0 MADE BY HANAKO 0
-
-{Fore.CYAN} [5] Enter Email Info
+{Fore.BLUE} [5] Enter Email Info
 {Fore.CYAN} [6] DNS Lookup
-{Fore.BLUE} [7] Ping IP
+{Fore.CYAN} [7] Ping IP
 {Fore.BLUE} [8] See website code
-{Fore.CYAN} [9] Join The Discord
+{Fore.BLUE} [9] Join The Discord
 """
     if menu_num == 3:
         content = fr"""
-{Fore.CYAN}      ,---,                                     
-{Fore.CYAN}  ,-+-. /  |              .--.--.               
-{Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
-{Fore.BLUE}|   |  ,"' | /       \  |  :  /`./   /       \  
-{Fore.CYAN}|   | /  | |.--.  .-. | |  :  ;_    .--.  .-. | 
-{Fore.CYAN}|   | |  | | \__\/: . .  \  \    `.  \__\/: . . 
-{Fore.BLUE}|   | |  |/  ," .--.; |   `----.   \ ," .--.; | 
-{Fore.BLUE}|   | |--'  /  /  ,.  |  /  /`--'  //  /  ,.  | 
-{Fore.CYAN}|   |/     ;  :   .'   \\'--'.     /;  :   .'   \\
-{Fore.CYAN}'---'      |  ,     .-./  `--'---' |  ,     .-./
-{Fore.BLUE}            `--`---'                `--`---'
+{Fore.CYAN}________        ________  ____  ___ ___________                             __  .__        
+{Fore.CYAN}\_____  \  ____/   __   \ \   \/  / \__    ___/___________    _____ _____ _/  |_|__| ____  
+{Fore.BLUE} /  ____/ /    \____    /  \     /    |    |  \_  __ \__  \  /     \\__  \\   __\  |/ ___\ 
+{Fore.BLUE}/       \|   |  \ /    /   /     \    |    |   |  | \// __ \|  Y Y  \/ __ \|  | |  \  \___ 
+{FORE.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
+{FORE.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
 {Fore.BLUE} Swatting Methods/Secure emails  0 MADE BY HANAKO 0
-
-{Fore.CYAN} [10] Globfone (Free)
+{Fore.BLUE} [10] Globfone (Free)
 {Fore.CYAN} [11] Set Up GV (Paid But Better)
-{Fore.BLUE} [12] 988 suicide Hotline (Free + May get them sent to a mental hospital)
+{Fore.CYAN} [12] 988 suicide Hotline (Free + May get them sent to a mental hospital)
 {Fore.BLUE} [13] @Mailum.com
-{Fore.CYAN} [14] @Proton.me
+{Fore.BLUE} [14] @Proton.me
 """
     if menu_num == 4:
         content = fr"""
-{Fore.CYAN}      ,---,                                     
-{Fore.CYAN}  ,-+-. /  |              .--.--.               
-{Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
-{Fore.BLUE}|   |  ,"' | /       \  |  :  /`./   /       \  
-{Fore.CYAN}|   | /  | |.--.  .-. | |  :  ;_    .--.  .-. | 
-{Fore.CYAN}|   | |  | | \__\/: . .  \  \    `.  \__\/: . . 
-{Fore.BLUE}|   | |  |/  ," .--.; |   `----.   \ ," .--.; | 
-{Fore.BLUE}|   | |--'  /  /  ,.  |  /  /`--'  //  /  ,.  | 
-{Fore.CYAN}|   |/     ;  :   .'   \\'--'.     /;  :   .'   \\
-{Fore.CYAN}'---'      |  ,     .-./  `--'---' |  ,     .-./
-{Fore.BLUE}            `--`---'                `--`---'
+{Fore.CYAN}________        ________  ____  ___ ___________                             __  .__        
+{Fore.CYAN}\_____  \  ____/   __   \ \   \/  / \__    ___/___________    _____ _____ _/  |_|__| ____  
+{Fore.BLUE} /  ____/ /    \____    /  \     /    |    |  \_  __ \__  \  /     \\__  \\   __\  |/ ___\ 
+{Fore.BLUE}/       \|   |  \ /    /   /     \    |    |   |  | \// __ \|  Y Y  \/ __ \|  | |  \  \___ 
+{FORE.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
+{FORE.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
 {Fore.BLUE} Telegram Links/Paste Bin links  0 MADE BY HANAKO 0
-
-{Fore.CYAN} [15] My Personal telegram
+{Fore.BLUE} [15] My Personal telegram
 {Fore.CYAN} [16] 2n9 Group Telegram
-{Fore.BLUE} [17] 2n9 Group Announcements Telegram
+{Fore.CYAN} [17] 2n9 Group Announcements Telegram
 {Fore.BLUE} [18] 2n9 Doxbin
-{Fore.CYAN} [19] Hanako Vilebin
+{Fore.BLUE} [19] Hanako Vilebin
 """
     if menu_num == 5:
         content = fr"""
-{Fore.CYAN}      ,---,                                     
-{Fore.CYAN}  ,-+-. /  |              .--.--.               
-{Fore.BLUE} ,--.'|'   |  ,--.--.    /  /    '    ,--.--.   
-{Fore.BLUE}|   |  ,"' | /       \  |  :  /`./   /       \  
-{Fore.CYAN}|   | /  | |.--.  .-. | |  :  ;_    .--.  .-. | 
-{Fore.CYAN}|   | |  | | \__\/: . .  \  \    `.  \__\/: . . 
-{Fore.BLUE}|   | |  |/  ," .--.; |   `----.   \ ," .--.; | 
-{Fore.BLUE}|   | |--'  /  /  ,.  |  /  /`--'  //  /  ,.  | 
-{Fore.CYAN}|   |/     ;  :   .'   \\'--'.     /;  :   .'   \\
-{Fore.CYAN}'---'      |  ,     .-./  `--'---' |  ,     .-./
-{Fore.BLUE}            `--`---'                `--`---'
+{Fore.CYAN}________        ________  ____  ___ ___________                             __  .__        
+{Fore.CYAN}\_____  \  ____/   __   \ \   \/  / \__    ___/___________    _____ _____ _/  |_|__| ____  
+{Fore.BLUE} /  ____/ /    \____    /  \     /    |    |  \_  __ \__  \  /     \\__  \\   __\  |/ ___\ 
+{Fore.BLUE}/       \|   |  \ /    /   /     \    |    |   |  | \// __ \|  Y Y  \/ __ \|  | |  \  \___ 
+{FORE.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
+{FORE.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
 {Fore.BLUE} Rarbin.com / website  0 MADE BY HANAKO 0
 
-{Fore.CYAN} [20] user/Ae
+{Fore.BLUE} [20] user/Ae
 {Fore.CYAN} [21] user/su
-{Fore.BLUE} [22] user/jk
+{Fore.CYAN} [22] user/jk
 {Fore.BLUE} [23] user/67
-{Fore.CYAN} [24] 2n9 Website
+{Fore.BLUE} [24] 2n9 Website
 """
 
-    print(Fore.CYAN + content)
+    print(Fore.MAGENTA + content)
 
 current_menu = 1
 
 while True:
     print_menu(current_menu)
-    menu = input(Fore.CYAN + "Select an option or type 'next or back': ").strip().lower()
+    menu = input(Fore.MAGENTA + "Select an option or type 'next or back': ").strip().lower()
 
     if menu == "next":
         if current_menu == 1:
