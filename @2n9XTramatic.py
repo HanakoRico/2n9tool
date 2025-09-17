@@ -7,6 +7,7 @@ import webbrowser
 import base64
 import subprocess
 import platform
+import certifi  # ✅ Added to fix SSL errors
 from colorama import Fore, init
 
 init(autoreset=True)
@@ -216,7 +217,7 @@ while True:
             t_spinner.start()
             t_progress.start()
             try:
-                response = requests.get(url)
+                response = requests.get(url, verify=certifi.where())  # ✅ FIXED
                 done_flag[0] = True
                 t_spinner.join()
                 t_progress.join()
@@ -250,7 +251,7 @@ while True:
             t_spinner.start()
             t_progress.start()
             try:
-                response = requests.get(url)
+                response = requests.get(url, verify=certifi.where())  # ✅ FIXED
                 done_flag[0] = True
                 t_spinner.join()
                 t_progress.join()
@@ -276,7 +277,7 @@ while True:
             t_spinner.start()
             t_progress.start()
             try:
-                response = requests.get(url)
+                response = requests.get(url, verify=certifi.where())  # ✅ FIXED
                 done_flag[0] = True
                 t_spinner.join()
                 t_progress.join()
@@ -308,7 +309,7 @@ while True:
             t_spinner.start()
             t_progress.start()
             try:
-                response = requests.get(api_url, headers=headers)
+                response = requests.get(api_url, headers=headers, verify=certifi.where())  # ✅ FIXED
                 done_flag[0] = True
                 t_spinner.join()
                 t_progress.join()
@@ -320,100 +321,3 @@ while True:
                 done_flag[0] = True
                 typewriter(f"{Fore.RED}Exception during DNS lookup: {e}")
 
-        elif menu == "7":
-            ip = input("Enter IP address to ping: ").strip()
-            if ip:
-                ping_ip(ip)
-            else:
-                typewriter(f"{Fore.YELLOW}[!] No IP entered.")
-
-        elif menu == "8":
-            url = "https://www.view-page-source.com/"
-            print(f"\nOpening: {url}")
-            webbrowser.open(url)
-
-
-        elif menu == "9":
-            url = "https://discord.gg/tjdgK3pF"
-            print(f"\nOpening: {url}")
-            webbrowser.open(url)
-
-        elif menu == "10":
-            url = "https://globfone.com/"
-            print(f"\nOpening: {url}")
-            webbrowser.open(url)
-
-        elif menu == "11":
-            url = "https://voice.google.com/signup"
-            print(f"nOpening: {url}")
-            webbrowser.open(url)
-       
-        elif menu == "12":
-            url = "https://988lifeline.org/"
-            print(f"nOpening {url}")
-            webbrowser.open(url)
-
-        elif menu == "13":
-            url = "hhttps://mailum.com/"
-            print(f"nOpening: {url}")
-            webbrowser.open(url)
-
-        elif menu == "14":
-            url = "https://account.proton.me/mail/signup?ref=mailhero"
-            print(f"nOpening: {url}")
-            webbrowser.open(url)
-        
-        elif menu == "15":
-            url = "https://t.me/endextortion"
-            print(f"nOpening: {url}")
-            webbrowser.open(url)
-       
-        elif menu == "16":
-            url = "https://t.me/+1plKawZsiDEwYmU0"
-            print(f"nOpening: {url}")
-            webbrowser.open(url)
-
-        elif menu == "17":
-            url = "https://t.me/i2n9Ann"
-            print(f"nOpening: {url}")
-            webbrowser.open(url)
-            
-        elif menu == "18":
-            url = "https://doxbin.com/user/2n9"
-            print(f"nOpening {url}")
-            webbrowser.open(url)
-
-        elif menu == "19":
-            url = "https://vilebin.ch/user/@Hanako"
-            print(f"nOpening {url}")
-            webbrowser.open(url)
-        
-        elif menu == "20":
-            url = "https://rarbin.com/user/AE"
-            print(f"nOpening {url}")
-            webbrowser.open(url)
-        
-        elif menu == "21":
-            url = "https://rarbin.com/user/su"
-            print(f"nOpening {url}")
-            webbrowser.open(url)
-        
-        elif menu == "22":
-            url = "https://rarbin.com/user/jk"
-            print(f"nOpening {url}")
-            webbrowser.open(url)
-        
-        elif menu == "23":
-            url = "https://rarbin.com/user/67"
-            print(f"nOpening {url}")
-            webbrowser.open(url)
-        
-        elif menu == "24":
-            url = "https://hanakorico.github.io/2n9/"
-            print(f"nOpening {url}")
-            webbrowser.open(url)
-        
-        else:
-            typewriter(f"{Fore.RED}[!] Invalid selection.")
-
-    input(f"\n{Fore.CYAN}Press Enter to return to menu...")
