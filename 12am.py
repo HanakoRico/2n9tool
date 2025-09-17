@@ -98,8 +98,8 @@ def print_menu(menu_num):
 {Fore.CYAN}\_____  \  ____/   __   \ \   \/  / \__    ___/___________    _____ _____ _/  |_|__| ____  
 {Fore.BLUE} /  ____/ /    \____    /  \     /    |    |  \_  __ \__  \  /     \\__  \\   __\  |/ ___\ 
 {Fore.BLUE}/       \|   |  \ /    /   /     \    |    |   |  | \// __ \|  Y Y  \/ __ \|  | |  \  \___ 
-{FORE.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
-{FORE.CYAN}        \/    \/                \_/                       \/      \/     \/             \/                                      
+{Fore.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
+{Fore.CYAN}        \/    \/                \_/                       \/      \/     \/             \/                                      
 {Fore.BLUE} Osint Options 0 MADE BY HANAKO 0
 {Fore.BLUE} [0] Exit
 {Fore.CYAN} [1] Enter Name Info    
@@ -113,8 +113,8 @@ def print_menu(menu_num):
 {Fore.CYAN}\_____  \  ____/   __   \ \   \/  / \__    ___/___________    _____ _____ _/  |_|__| ____  
 {Fore.BLUE} /  ____/ /    \____    /  \     /    |    |  \_  __ \__  \  /     \\__  \\   __\  |/ ___\ 
 {Fore.BLUE}/       \|   |  \ /    /   /     \    |    |   |  | \// __ \|  Y Y  \/ __ \|  | |  \  \___ 
-{FORE.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
-{FORE.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
+{Fore.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
+{Fore.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
 {Fore.BLUE} Osint/Discord/Website Code  0 MADE BY HANAKO 0
 {Fore.BLUE} [5] Enter Email Info
 {Fore.CYAN} [6] DNS Lookup
@@ -128,8 +128,8 @@ def print_menu(menu_num):
 {Fore.CYAN}\_____  \  ____/   __   \ \   \/  / \__    ___/___________    _____ _____ _/  |_|__| ____  
 {Fore.BLUE} /  ____/ /    \____    /  \     /    |    |  \_  __ \__  \  /     \\__  \\   __\  |/ ___\ 
 {Fore.BLUE}/       \|   |  \ /    /   /     \    |    |   |  | \// __ \|  Y Y  \/ __ \|  | |  \  \___ 
-{FORE.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
-{FORE.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
+{Fore.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
+{Fore.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
 {Fore.BLUE} Swatting Methods/Secure emails  0 MADE BY HANAKO 0
 {Fore.BLUE} [10] Globfone (Free)
 {Fore.CYAN} [11] Set Up GV (Paid But Better)
@@ -143,8 +143,8 @@ def print_menu(menu_num):
 {Fore.CYAN}\_____  \  ____/   __   \ \   \/  / \__    ___/___________    _____ _____ _/  |_|__| ____  
 {Fore.BLUE} /  ____/ /    \____    /  \     /    |    |  \_  __ \__  \  /     \\__  \\   __\  |/ ___\ 
 {Fore.BLUE}/       \|   |  \ /    /   /     \    |    |   |  | \// __ \|  Y Y  \/ __ \|  | |  \  \___ 
-{FORE.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
-{FORE.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
+{Fore.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
+{Fore.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
 {Fore.BLUE} Telegram Links/Paste Bin links  0 MADE BY HANAKO 0
 {Fore.BLUE} [15] My Personal telegram
 {Fore.CYAN} [16] 2n9 Group Telegram
@@ -158,10 +158,9 @@ def print_menu(menu_num):
 {Fore.CYAN}\_____  \  ____/   __   \ \   \/  / \__    ___/___________    _____ _____ _/  |_|__| ____  
 {Fore.BLUE} /  ____/ /    \____    /  \     /    |    |  \_  __ \__  \  /     \\__  \\   __\  |/ ___\ 
 {Fore.BLUE}/       \|   |  \ /    /   /     \    |    |   |  | \// __ \|  Y Y  \/ __ \|  | |  \  \___ 
-{FORE.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
-{FORE.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
+{Fore.CYAN}\_______ \___|  //____/   /___/\  \   |____|   |__|  (____  /__|_|  (____ /__| |__|\___  >
+{Fore.CYAN}        \/    \/                \_/                       \/      \/     \/             \/      
 {Fore.BLUE} Rarbin.com / website  0 MADE BY HANAKO 0
-
 {Fore.BLUE} [20] user/Ae
 {Fore.CYAN} [21] user/su
 {Fore.CYAN} [22] user/jk
