@@ -7,7 +7,7 @@ import webbrowser
 import base64
 import subprocess
 import platform
-import certifi  # ✅ Added to fix SSL errors
+import certifi
 from colorama import Fore, init
 
 init(autoreset=True)
